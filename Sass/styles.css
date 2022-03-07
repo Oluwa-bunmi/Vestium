@@ -1,0 +1,26 @@
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+nav {
+  background-color: #F8F0E3;
+}
+
+.navbar .collapse .navbar-nav {
+  margin: auto;
+}
+
+.navbar .collapse .navbar-nav .nav-link {
+  color: #020636;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar .collapse .navbar-nav .nav-link .active {
+  color: #d65123;
+}
+
+.img {
+  margin-right: 15px;
+}
+/*# sourceMappingURL=styles.css.map */

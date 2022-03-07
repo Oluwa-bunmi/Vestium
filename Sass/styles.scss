@@ -1,0 +1,23 @@
+@import "./variable";
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+nav {
+  background-color: $background;
+}
+
+.navbar .collapse .navbar-nav {
+  margin: auto;
+  //   color: $textMainColor;
+  .nav-link {
+    color: $navlinkColor;
+    font-size: 24px;
+    font-weight: bold;
+    .active {
+      color: $navLinkActive;
+    }
+  }
+}
+.img{
+    margin-right: 15px;
+}
