@@ -6,6 +6,16 @@ nav {
   background-color: #F8F0E3;
 }
 
+nav .img {
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 991px) {
+  nav .none {
+    display: none;
+  }
+}
+
 .navbar .collapse .navbar-nav {
   margin: auto;
 }
@@ -18,9 +28,5 @@ nav {
 
 .navbar .collapse .navbar-nav .nav-link .active {
   color: #d65123;
-}
-
-.img {
-  margin-right: 15px;
 }
 /*# sourceMappingURL=styles.css.map */
