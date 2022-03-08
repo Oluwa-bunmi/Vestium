@@ -42,6 +42,13 @@ nav .img {
 @media screen and (max-width: 991px) {
   .firstSection .row {
     padding-top: 40px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 1209px) {
+  .firstSection .row {
+    padding-bottom: 30px;
   }
 }
 
@@ -120,7 +127,15 @@ nav .img {
 .secondSection .iphone {
   position: absolute;
   z-index: 1;
-  top: 53vw;
+  top: 54vw;
+}
+
+@media screen and (max-width: 1209px) {
+  .secondSection .iphone {
+    position: relative;
+    top: 0;
+    padding: 10px;
+  }
 }
 
 .secondSection .round {
@@ -145,5 +160,17 @@ nav .img {
 
 .secondSection .btn {
   padding-bottom: 150px;
+}
+
+@media screen and (max-width: 991px) {
+  .secondSection .btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .secondSection .none {
+    display: none;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

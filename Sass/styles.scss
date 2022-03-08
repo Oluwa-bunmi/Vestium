@@ -32,7 +32,11 @@ nav {
     padding-bottom: 250px;
     @media screen and (max-width: 991px) {
       padding-top: 40px;
+      padding-bottom: 30px;
     }
+     @media screen and (max-width: 1209px){
+        padding-bottom: 30px;
+     }
   }
   background: #020636;
 
@@ -95,7 +99,24 @@ nav {
 .iphone{
   position: absolute;
   z-index: 1;
-  top: 53vw;
+  top: 54vw;
+      @media screen and (max-width: 1209px){
+        position: relative;
+        top: 0;
+        padding: 10px;
+      }
+      //     @media screen and (min-width: 991px){
+      //       top: 70vw;
+
+      //     }
+      //     @media screen and (min-width: 1024px){
+      //       top: 70vw;
+      //     }
+      //     @media screen and (min-width: 1145px){
+            
+
+      //     }
+          
 }
 .round{
   display: flex;
@@ -115,6 +136,14 @@ p{
 }
 .btn{
   padding-bottom: 150px;
+      @media screen and (max-width: 991px){
+        display: none;
+      }
+}
+.none{
+      @media screen and (max-width: 991px){
+        display: none;
+      }
 }
 
 }
