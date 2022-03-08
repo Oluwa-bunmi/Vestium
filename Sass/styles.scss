@@ -130,7 +130,7 @@ h3{
   font-weight: bold;
 font-size: 25px;
 }
-p{
+.para{
   line-height: 30px;
 
 }
@@ -144,6 +144,51 @@ p{
       @media screen and (max-width: 991px){
         display: none;
       }
+}
+.thirdSection{
+  .col-lg-7{
+     @media screen and (max-width: 991px){
+       margin-bottom: 50px;
+     }
+  }
+h3{
+  font-size: 45px;
+  font-weight: bold;
+   @media screen and (max-width: 991px){
+     font-size: 30px;
+   }
+  
+}
+
+
+  .round{
+    display: flex;
+    gap: 10px;
+    padding-top: 100px;
+     @media screen and (max-width: 991px){
+       padding-top: 15px;
+     }
+  }
+  .together{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    line-height: 24px;
+    p{
+      align-items: center;
+      display: contents;
+      line-height: 24px;
+      font-weight: 600;
+    }
+  }
+.bnt{
+  text-decoration: none;
+  color: white;
+  border: 1px solid $textMainColor;
+  padding: 10px 7vw;
+  background-color: $textMainColor;
+  border-radius: 10px;
+}
 }
 
 }

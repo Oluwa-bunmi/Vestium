@@ -154,7 +154,7 @@ nav .img {
   font-size: 25px;
 }
 
-.secondSection p {
+.secondSection .para {
   line-height: 30px;
 }
 
@@ -172,5 +172,65 @@ nav .img {
   .secondSection .none {
     display: none;
   }
+}
+
+@media screen and (max-width: 991px) {
+  .secondSection .thirdSection .col-lg-7 {
+    margin-bottom: 50px;
+  }
+}
+
+.secondSection .thirdSection h3 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 991px) {
+  .secondSection .thirdSection h3 {
+    font-size: 30px;
+  }
+}
+
+.secondSection .thirdSection .round {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 991px) {
+  .secondSection .thirdSection .round {
+    padding-top: 15px;
+  }
+}
+
+.secondSection .thirdSection .together {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+  line-height: 24px;
+}
+
+.secondSection .thirdSection .together p {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: contents;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.secondSection .thirdSection .bnt {
+  text-decoration: none;
+  color: white;
+  border: 1px solid #020636;
+  padding: 10px 7vw;
+  background-color: #020636;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=styles.css.map */
