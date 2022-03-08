@@ -1,5 +1,5 @@
 body {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 nav {
@@ -27,6 +27,89 @@ nav .img {
 }
 
 .navbar .collapse .navbar-nav .nav-link .active {
-  color: #d65123;
+  color: #D65123;
+}
+
+.firstSection {
+  background: #020636;
+}
+
+.firstSection .row {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+@media screen and (max-width: 991px) {
+  .firstSection .row {
+    padding-top: 40px;
+  }
+}
+
+.firstSection .round {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+  background: rgba(248, 240, 227, 0.5);
+  border-radius: 30px;
+  width: 310px;
+  height: 50px;
+  padding-left: 5px;
+}
+
+@media screen and (max-width: 991px) {
+  .firstSection .round {
+    width: 270px;
+  }
+}
+
+.firstSection .round h3 {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 991px) {
+  .firstSection .round h3 {
+    font-size: 12px;
+  }
+}
+
+.firstSection .round img {
+  margin-top: 20px;
+}
+
+.firstSection .dress {
+  border: 1px solid #D65123;
+  border-radius: 100%;
+  padding: 0 10px;
+}
+
+.firstSection .img {
+  margin-left: 20px;
+}
+
+.firstSection p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: rgba(248, 240, 227, 0.8);
+}
+
+.firstSection h3 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 50px;
+  color: #F8F0E3;
+}
+
+@media screen and (max-width: 991px) {
+  .firstSection h3 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .firstSection .none {
+    display: none;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
