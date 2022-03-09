@@ -1,6 +1,7 @@
 @import "./variable";
 body {
   font-family: "Nunito Sans", sans-serif;
+  overflow-x: hidden;
 }
 nav {
   background-color: $background;
@@ -38,7 +39,7 @@ nav {
         padding-bottom: 30px;
      }
   }
-  background: #020636;
+  background: $textMainColor;
 
   .round {
     display: flex;
@@ -191,4 +192,49 @@ h3{
 }
 }
 
+}
+.forthSection{
+  background-image: url(/Images/semicirclePlainBackground.svg);
+  background-position-x: -30px;
+  background-position-y: -197px;
+  background-size: cover;
+  
+  background-color: $textMainColor;
+  @media screen and (max-width: 991px){
+    background-image: none;
+  }
+  h3{
+    font-weight: bold;
+font-size: 40px;
+line-height: 55px;
+color: $background;
+
+text-align: center;
+  @media screen and (max-width: 991px){
+    
+  }
+  }
+  p{
+    font-size: 22px;
+line-height: 26px;
+color: $background;
+font-weight: normal;
+text-align: center;
+
+  }
+  .round{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  .col-lg-12:nth-child(2){
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 100px;
+  }
+  .wrapper{
+    padding-top: 50px;
+  }
+  
 }
