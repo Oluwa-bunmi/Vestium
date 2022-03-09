@@ -257,12 +257,24 @@ nav .img {
   text-align: center;
 }
 
+@media screen and (max-width: 991px) {
+  .forthSection h3 {
+    font-size: 30px;
+  }
+}
+
 .forthSection p {
   font-size: 22px;
   line-height: 26px;
   color: #F8F0E3;
   font-weight: normal;
   text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+  .forthSection p {
+    font-size: 18px;
+  }
 }
 
 .forthSection .round {

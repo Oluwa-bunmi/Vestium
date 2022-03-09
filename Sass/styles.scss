@@ -97,6 +97,8 @@ nav {
 }
 .secondSection{
   background-color: $background;
+
+
 .iphone{
   position: absolute;
   z-index: 1;
@@ -106,17 +108,7 @@ nav {
         top: 0;
         padding: 10px;
       }
-      //     @media screen and (min-width: 991px){
-      //       top: 70vw;
-
-      //     }
-      //     @media screen and (min-width: 1024px){
-      //       top: 70vw;
-      //     }
-      //     @media screen and (min-width: 1145px){
-            
-
-      //     }
+      
           
 }
 .round{
@@ -202,6 +194,7 @@ h3{
   background-color: $textMainColor;
   @media screen and (max-width: 991px){
     background-image: none;
+    
   }
   h3{
     font-weight: bold;
@@ -211,7 +204,7 @@ color: $background;
 
 text-align: center;
   @media screen and (max-width: 991px){
-    
+    font-size: 30px;
   }
   }
   p{
@@ -220,6 +213,9 @@ line-height: 26px;
 color: $background;
 font-weight: normal;
 text-align: center;
+  @media screen and (max-width: 991px){
+    font-size: 18px;
+  }
 
   }
   .round{
