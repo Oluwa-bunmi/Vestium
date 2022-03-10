@@ -310,6 +310,7 @@ nav .img {
   font-weight: bold;
   font-size: 48px;
   color: #020636;
+  padding-top: 50px;
 }
 
 @media screen and (max-width: 991px) {
@@ -324,7 +325,7 @@ nav .img {
 
 .lastSection .accordion-item .accordion-button {
   font-weight: 100;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 @media screen and (max-width: 991px) {
@@ -336,5 +337,11 @@ nav .img {
 .lastSection .accordion-item .accordion-body {
   font-size: 22px;
   line-height: 26px;
+}
+
+@media screen and (max-width: 991px) {
+  .lastSection .accordion-item .accordion-body {
+    font-size: 18px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
