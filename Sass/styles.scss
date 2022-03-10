@@ -35,9 +35,9 @@ nav {
       padding-top: 40px;
       padding-bottom: 30px;
     }
-     @media screen and (max-width: 1209px){
-        padding-bottom: 30px;
-     }
+    @media screen and (max-width: 1209px) {
+      padding-bottom: 30px;
+    }
   }
   background: $textMainColor;
 
@@ -95,199 +95,224 @@ nav {
     }
   }
 }
-.secondSection{
+.secondSection {
   background-color: $background;
-    //  @media screen and (max-width: 991px){
-    //    display: grid;
-       
-    //  }
+  //  @media screen and (max-width: 991px){
+  //    display: grid;
 
+  //  }
 
-.iphone{
-  position: absolute;
-  z-index: 1;
-  top: 54vw;
-      @media screen and (max-width: 1209px){
-        position: relative;
-        top: 0;
-        padding: 10px;
-      }
-      
-          
-}
-.round{
-  display: flex;
-  gap: 10px;
-  h2{
-    font-weight: 800;
-
-  }
-}
-h3{
-  font-weight: bold;
-font-size: 25px;
-}
-.para{
-  line-height: 30px;
-
-}
-.btn{
-  padding-bottom: 150px;
-      @media screen and (max-width: 991px){
-        display: none;
-      }
-}
-.none{
-      @media screen and (max-width: 991px){
-        display: none;
-      }
-}
-.thirdSection{
-  .col-lg-7{
-     @media screen and (max-width: 991px){
-       margin-bottom: 50px;
-     }
-  }
-h3{
-  font-size: 45px;
-  font-weight: bold;
-   @media screen and (max-width: 991px){
-     font-size: 30px;
-   }
-  
-}
-
-
-  .round{
-    display: flex;
-    gap: 10px;
-    padding-top: 100px;
-     @media screen and (max-width: 991px){
-       padding-top: 15px;
-     }
-  }
-  .together{
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    line-height: 24px;
-    p{
-      align-items: center;
-      display: contents;
-      line-height: 24px;
-      font-weight: 600;
+  .iphone {
+    position: absolute;
+    z-index: 1;
+    top: 54vw;
+    @media screen and (max-width: 1209px) {
+      position: relative;
+      top: 0;
+      padding: 10px;
     }
   }
-.bnt{
-  text-decoration: none;
-  color: white;
-  border: 1px solid $textMainColor;
-  padding: 10px 7vw;
-  background-color: $textMainColor;
-  border-radius: 10px;
-}
-}
+  .round {
+    display: flex;
+    gap: 10px;
+    h2 {
+      font-weight: 800;
+    }
+  }
+  h3 {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .para {
+    line-height: 30px;
+  }
+  .btn {
+    padding-bottom: 150px;
+    @media screen and (max-width: 991px) {
+      display: none;
+    }
+  }
+  .none {
+    @media screen and (max-width: 991px) {
+      display: none;
+    }
+  }
+  .thirdSection {
+    .col-lg-7 {
+      @media screen and (max-width: 991px) {
+        margin-bottom: 50px;
+      }
+    }
+    h3 {
+      font-size: 45px;
+      font-weight: bold;
+      @media screen and (max-width: 991px) {
+        font-size: 30px;
+      }
+    }
 
+    .round {
+      display: flex;
+      gap: 10px;
+      padding-top: 100px;
+      @media screen and (max-width: 991px) {
+        padding-top: 15px;
+      }
+    }
+    .together {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      line-height: 24px;
+      p {
+        align-items: center;
+        display: contents;
+        line-height: 24px;
+        font-weight: 600;
+      }
+    }
+    .bnt {
+      text-decoration: none;
+      color: white;
+      border: 1px solid $textMainColor;
+      padding: 10px 7vw;
+      background-color: $textMainColor;
+      border-radius: 10px;
+    }
+  }
 }
-.forthSection{
+.forthSection {
   background-image: url(/Images/semicirclePlainBackground.svg);
   background-position-x: -30px;
   background-position-y: -197px;
   background-size: cover;
-  
+
   background-color: $textMainColor;
-  @media screen and (max-width: 991px){
+  @media screen and (max-width: 991px) {
     background-image: none;
-    
   }
-  h3{
+  h3 {
     font-weight: bold;
-font-size: 40px;
-line-height: 55px;
-color: $background;
+    font-size: 40px;
+    line-height: 55px;
+    color: $background;
 
-text-align: center;
-  @media screen and (max-width: 991px){
-    font-size: 30px;
+    text-align: center;
+    @media screen and (max-width: 991px) {
+      font-size: 30px;
+    }
   }
-  }
-  p{
+  p {
     font-size: 22px;
-line-height: 26px;
-color: $background;
-font-weight: normal;
-text-align: center;
-  @media screen and (max-width: 991px){
-    font-size: 18px;
+    line-height: 26px;
+    color: $background;
+    font-weight: normal;
+    text-align: center;
+    @media screen and (max-width: 991px) {
+      font-size: 18px;
+    }
   }
-
-  }
-  .round{
+  .round {
     display: flex;
     justify-content: center;
     padding-top: 50px;
   }
-  .col-lg-12:nth-child(2){
+  .col-lg-12:nth-child(2) {
     display: flex;
     justify-content: center;
     padding-top: 50px;
     padding-left: 100px;
     padding-bottom: 50px;
   }
-  .wrapper{
+  .wrapper {
     padding-top: 50px;
   }
-  
 }
-.lastSection{
+.lastSection {
   background-color: $background;
   padding-bottom: 50px;
-  h3{
+  h3 {
     font-weight: bold;
-font-size: 48px;
-color: $textMainColor;
-padding-top: 50px;
-@media screen and (max-width: 991px){
-  font-size: 30px;
-}
+    font-size: 48px;
+    color: $textMainColor;
+    padding-top: 50px;
+    @media screen and (max-width: 991px) {
+      font-size: 30px;
+    }
   }
-  .accordion-item{
-border: 4px solid $background;
-    .accordion-button{
+  .accordion-item {
+    border: 4px solid $background;
+    .accordion-button {
       font-weight: 100;
-  font-size: 25px;
-  @media screen and (max-width: 991px){
-    font-size: 20px;
-  }
+      font-size: 25px;
+      @media screen and (max-width: 991px) {
+        font-size: 20px;
+      }
     }
-    .accordion-body{
+    .accordion-body {
       font-size: 22px;
-line-height: 26px;
-@media screen and (max-width: 991px){
-  font-size: 18px;
-}
+      line-height: 26px;
+      @media screen and (max-width: 991px) {
+        font-size: 18px;
+      }
     }
   }
-
 }
-footer{
+footer {
   background-color: $textMainColor;
-//  .col-lg-4{
- 
-   p{
+  padding: {
+    top: 50px;
+    bottom: 40px;
+  }
 
-     color: $background;
-   }
-   h3{
-     color: $background;
-   }
-   li{
-     list-style: none;
+  p {
+    color: $background;
+  }
+  .paragraphFooter {
+    line-height: 30px;
+  }
+  h3 {
+    color: $background;
+  }
+  li {
+    list-style: none;
+    line-height: 42px;
 
-     a{
-       text-decoration: none;
-       color: $background;
+    a {
+      text-decoration: none;
+      color: $background;
+    }
+  }
+  .show {
+    display: none;
+    @media screen and (max-width: 991px) {
+      display: block;
+      padding-bottom: 50px;
+      img {
+        width: 30px;
+      }
+    }
+  }
+  .flex {
+    display: flex;
+    justify-content: space-evenly;
+    @media screen and (max-width: 991px) {
+      justify-content: space-between;
+    }
+  }
+  .none {
+    padding-top: 50px;
+    display: flex;
+    gap: 5px;
+    padding-bottom: 30px;
+    @media screen and (max-width: 991px) {
+      display: none;
+    }
+  }
+  .copyright{
+     @media screen and (max-width: 991px){
+
+       font-size: 15px;
      }
-   }
-//  }
+  }
 }

@@ -349,10 +349,16 @@ nav .img {
 
 footer {
   background-color: #020636;
+  padding-top: 50px;
+  padding-bottom: 40px;
 }
 
 footer p {
   color: #F8F0E3;
+}
+
+footer .paragraphFooter {
+  line-height: 30px;
 }
 
 footer h3 {
@@ -361,10 +367,63 @@ footer h3 {
 
 footer li {
   list-style: none;
+  line-height: 42px;
 }
 
 footer li a {
   text-decoration: none;
   color: #F8F0E3;
+}
+
+footer .show {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  footer .show {
+    display: block;
+    padding-bottom: 50px;
+  }
+  footer .show img {
+    width: 30px;
+  }
+}
+
+footer .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+@media screen and (max-width: 991px) {
+  footer .flex {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+footer .none {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 991px) {
+  footer .none {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  footer .copyright {
+    font-size: 15px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
