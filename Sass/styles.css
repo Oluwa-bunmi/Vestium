@@ -415,6 +415,10 @@ footer .none {
   padding-bottom: 30px;
 }
 
+footer .none img {
+  width: 30px;
+}
+
 @media screen and (max-width: 991px) {
   footer .none {
     display: none;
