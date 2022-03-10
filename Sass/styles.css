@@ -305,6 +305,7 @@ nav .img {
 
 .lastSection {
   background-color: #F8F0E3;
+  padding-bottom: 50px;
 }
 
 .lastSection h3 {
@@ -344,5 +345,26 @@ nav .img {
   .lastSection .accordion-item .accordion-body {
     font-size: 18px;
   }
+}
+
+footer {
+  background-color: #020636;
+}
+
+footer p {
+  color: #F8F0E3;
+}
+
+footer h3 {
+  color: #F8F0E3;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer li a {
+  text-decoration: none;
+  color: #F8F0E3;
 }
 /*# sourceMappingURL=styles.css.map */
