@@ -5,7 +5,7 @@ body {
 }
 nav {
   background-color: $background;
- 
+
   .img {
     margin-right: 15px;
   }
@@ -15,12 +15,14 @@ nav {
     }
   }
 }
-.navbar{
+.navbar {
   position: fixed;
-  top: 0;
+  // top: 0;
   z-index: 2;
   width: 100%;
-  
+  @media screen and (max-width: 991px) {
+    z-index: 2;
+  }
 }
 
 .navbar .collapse .navbar-nav {
@@ -56,17 +58,15 @@ nav {
     background: rgba(248, 240, 227, 0.5);
     border-radius: 30px;
 
-    width: 310px;
+    width: 250px;
     height: 50px;
     padding-left: 5px;
     @media screen and (max-width: 991px) {
-      width: 270px;
+     display: none;
     }
     h3 {
-      font-size: 16px;
-      @media screen and (max-width: 991px) {
-        font-size: 12px;
-      }
+      font-size: 12px;
+     
     }
     img {
       margin-top: 20px;
@@ -94,18 +94,37 @@ nav {
     color: $background;
     @media screen and (max-width: 991px) {
       font-size: 36px;
+      padding-top: 50px;
     }
   }
 
-  .none {
-    @media screen and (max-width: 991px) {
-      display: none;
+  .Download {
+    display: flex;
+    gap: 10px;
+     @media screen and (max-width: 991px){
+    display: none;
+     }
+    img {
+      width: 150px;
+ 
     }
+  }
+  .none{
+    display: none;
+      @media screen and (max-width: 991px){
+        display: flex;
+        gap: 10px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        img{
+           width: 130px;
+        }
+      }
+
   }
 }
 .secondSection {
   background-color: $background;
-
 
   .iphone {
     position: absolute;
@@ -143,17 +162,16 @@ nav {
     }
   }
   .thirdSection {
-   
     .col-lg-7 {
       @media screen and (max-width: 991px) {
         margin-bottom: 50px;
         order: 2;
       }
     }
-    .col-lg-5{
-       @media screen and (max-width: 991px){
-         order: 1;
-       }
+    .col-lg-5 {
+      @media screen and (max-width: 991px) {
+        order: 1;
+      }
     }
     h3 {
       font-size: 45px;
@@ -202,6 +220,7 @@ nav {
   background-color: $textMainColor;
   @media screen and (max-width: 991px) {
     background-image: none;
+  
   }
   h3 {
     font-weight: bold;
@@ -228,6 +247,11 @@ nav {
     display: flex;
     justify-content: center;
     padding-top: 50px;
+      @media screen and (max-width: 991px){
+        padding-top: 30px;
+       
+      }
+    
   }
   .col-lg-12:nth-child(2) {
     display: flex;
@@ -235,15 +259,17 @@ nav {
     padding-top: 50px;
     padding-left: 100px;
     padding-bottom: 50px;
-    
+      @media screen and (max-width: 991px){
+        padding-bottom: 0;
+      }
   }
   .wrapper {
     padding-top: 50px;
   }
-  .img-fluid{
-     @media screen and (max-width: 991px){
-       display: none;
-     }
+  .vestium {
+    @media screen and (max-width: 991px) {
+      display: none;
+    }
   }
 }
 .lastSection {
@@ -260,6 +286,10 @@ nav {
   }
   .accordion-item {
     border: 4px solid $background;
+    background-color: $background;
+    .accordion-header{
+      background-color: $background!important;
+    }
     .accordion-button {
       font-weight: 100;
       font-size: 25px;
@@ -270,11 +300,14 @@ nav {
     .accordion-body {
       font-size: 22px;
       line-height: 26px;
+     
       @media screen and (max-width: 991px) {
         font-size: 18px;
       }
     }
   }
+       
+
 }
 footer {
   background-color: $textMainColor;
@@ -323,17 +356,16 @@ footer {
     display: flex;
     gap: 5px;
     padding-bottom: 30px;
-      img {
-        width: 30px;
-      }
+    img {
+      width: 30px;
+    }
     @media screen and (max-width: 991px) {
       display: none;
     }
   }
-  .copyright{
-     @media screen and (max-width: 991px){
-
-       font-size: 15px;
-     }
+  .copyright {
+    @media screen and (max-width: 991px) {
+      font-size: 15px;
+    }
   }
 }
