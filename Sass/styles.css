@@ -34,12 +34,12 @@ nav .img {
 }
 
 .navbar .collapse .navbar-nav .nav-link {
-  color: #020636;
   font-size: 24px;
   font-weight: bold;
+  color: #020636;
 }
 
-.navbar .collapse .navbar-nav .nav-link .active {
+.navbar .collapse .navbar-nav .nav-link:active {
   color: #D65123;
 }
 
@@ -212,7 +212,13 @@ nav .img {
 }
 
 .secondSection .thirdSection {
-  padding-top: 150px;
+  padding-top: 40px;
+}
+
+@media screen and (max-width: 991px) {
+  .secondSection .thirdSection {
+    padding-top: 0px;
+  }
 }
 
 @media screen and (max-width: 991px) {

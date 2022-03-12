@@ -27,15 +27,16 @@ nav {
 
 .navbar .collapse .navbar-nav {
   margin: auto;
-
-  .nav-link {
-    color: $navlinkColor;
-    font-size: 24px;
+.nav-link{
+ font-size: 24px;
     font-weight: bold;
-    .active {
+    color: $navlinkColor;
+}
+  
+   .nav-link:active {
       color: $navLinkActive;
     }
-  }
+  
 }
 .firstSection {
   .row {
@@ -162,7 +163,10 @@ nav {
     }
   }
   .thirdSection {
-    padding-top: 150px;
+    padding-top: 40px;
+     @media screen and (max-width: 991px){
+       padding-top: 0px;
+     }
 
     .col-lg-7 {
       @media screen and (max-width: 991px) {
