@@ -27,16 +27,15 @@ nav {
 
 .navbar .collapse .navbar-nav {
   margin: auto;
-.nav-link{
- font-size: 24px;
+  .nav-link {
+    font-size: 24px;
     font-weight: bold;
     color: $navlinkColor;
-}
-  
-   .nav-link:active {
-      color: $navLinkActive;
-    }
-  
+  }
+
+  .nav-link:active {
+    color: $navLinkActive;
+  }
 }
 .firstSection {
   .row {
@@ -63,11 +62,10 @@ nav {
     height: 50px;
     padding-left: 5px;
     @media screen and (max-width: 991px) {
-     display: none;
+      display: none;
     }
     h3 {
       font-size: 12px;
-     
     }
     img {
       margin-top: 20px;
@@ -102,26 +100,24 @@ nav {
   .Download {
     display: flex;
     gap: 10px;
-     @media screen and (max-width: 991px){
-    display: none;
-     }
+    @media screen and (max-width: 991px) {
+      display: none;
+    }
     img {
       width: 150px;
- 
     }
   }
-  .none{
+  .none {
     display: none;
-      @media screen and (max-width: 991px){
-        display: flex;
-        gap: 10px;
-        padding-top: 30px;
-        padding-bottom: 20px;
-        img{
-           width: 130px;
-        }
+    @media screen and (max-width: 991px) {
+      display: flex;
+      gap: 10px;
+      padding-top: 30px;
+      padding-bottom: 20px;
+      img {
+        width: 130px;
       }
-
+    }
   }
 }
 .secondSection {
@@ -140,6 +136,11 @@ nav {
   .round {
     display: flex;
     gap: 10px;
+    padding-top: 50px;
+        @media screen and (max-width: 1209px){
+          padding-top: 0;
+        }
+
     h2 {
       font-weight: 800;
     }
@@ -164,9 +165,9 @@ nav {
   }
   .thirdSection {
     padding-top: 40px;
-     @media screen and (max-width: 991px){
-       padding-top: 0px;
-     }
+    @media screen and (max-width: 991px) {
+      padding-top: 0px;
+    }
 
     .col-lg-7 {
       @media screen and (max-width: 991px) {
@@ -184,6 +185,7 @@ nav {
       font-weight: bold;
       @media screen and (max-width: 991px) {
         font-size: 30px;
+        font-weight: normal;
       }
     }
 
@@ -204,7 +206,7 @@ nav {
         align-items: center;
         display: contents;
         line-height: 24px;
-        font-weight: 600;
+        // font-weight: normal;
       }
     }
     .bnt {
@@ -226,7 +228,6 @@ nav {
   background-color: $textMainColor;
   @media screen and (max-width: 991px) {
     background-image: none;
-  
   }
   h3 {
     font-weight: bold;
@@ -236,6 +237,9 @@ nav {
 
     text-align: center;
     @media screen and (max-width: 991px) {
+      font-weight: normal;
+      line-height: 48px;
+      text-align: left;
       font-size: 30px;
     }
   }
@@ -243,21 +247,20 @@ nav {
     font-size: 22px;
     line-height: 26px;
     color: $background;
-    font-weight: normal;
+    
     text-align: center;
     @media screen and (max-width: 991px) {
       font-size: 18px;
+      text-align: left;
     }
   }
   .round {
     display: flex;
     justify-content: center;
     padding-top: 50px;
-      @media screen and (max-width: 991px){
-        padding-top: 30px;
-       
-      }
-    
+    @media screen and (max-width: 991px) {
+      padding-top: 30px;
+    }
   }
   .col-lg-12:nth-child(2) {
     display: flex;
@@ -265,9 +268,9 @@ nav {
     padding-top: 50px;
     padding-left: 100px;
     padding-bottom: 50px;
-      @media screen and (max-width: 991px){
-        padding-bottom: 0;
-      }
+    @media screen and (max-width: 991px) {
+      padding-bottom: 0;
+    }
   }
   .wrapper {
     padding-top: 50px;
@@ -294,12 +297,12 @@ nav {
     border: 4px solid $background;
     background-color: $background;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-   
+
     .accordion-button {
       font-weight: 100;
       font-size: 25px;
       background-color: $background;
-     
+
       @media screen and (max-width: 991px) {
         font-size: 20px;
       }
@@ -307,14 +310,12 @@ nav {
     .accordion-body {
       font-size: 22px;
       line-height: 26px;
-     
+
       @media screen and (max-width: 991px) {
         font-size: 18px;
       }
     }
   }
-       
-
 }
 footer {
   background-color: $textMainColor;

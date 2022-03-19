@@ -180,6 +180,13 @@ nav .img {
   display: -ms-flexbox;
   display: flex;
   gap: 10px;
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 1209px) {
+  .secondSection .round {
+    padding-top: 0;
+  }
 }
 
 .secondSection .round h2 {
@@ -246,6 +253,7 @@ nav .img {
 @media screen and (max-width: 991px) {
   .secondSection .thirdSection h3 {
     font-size: 30px;
+    font-weight: normal;
   }
 }
 
@@ -280,7 +288,6 @@ nav .img {
           align-items: center;
   display: contents;
   line-height: 24px;
-  font-weight: 600;
 }
 
 .secondSection .thirdSection .bnt {
@@ -316,6 +323,9 @@ nav .img {
 
 @media screen and (max-width: 991px) {
   .forthSection h3 {
+    font-weight: normal;
+    line-height: 48px;
+    text-align: left;
     font-size: 30px;
   }
 }
@@ -324,13 +334,13 @@ nav .img {
   font-size: 22px;
   line-height: 26px;
   color: #F8F0E3;
-  font-weight: normal;
   text-align: center;
 }
 
 @media screen and (max-width: 991px) {
   .forthSection p {
     font-size: 18px;
+    text-align: left;
   }
 }
 
