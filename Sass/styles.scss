@@ -345,8 +345,10 @@ footer {
   .show {
     display: none;
     @media screen and (max-width: 991px) {
-      display: block;
+      display: flex;
+      
       padding-bottom: 50px;
+      gap: 15px;
       img {
         width: 30px;
       }
@@ -372,6 +374,11 @@ footer {
     }
   }
   .copyright {
+    .col-lg-4{
+    @media screen and (max-width: 991px) {
+      padding-top: 18px;
+    }   
+    }
     @media screen and (max-width: 991px) {
       font-size: 15px;
     }

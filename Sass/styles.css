@@ -470,8 +470,11 @@ footer .show {
 
 @media screen and (max-width: 991px) {
   footer .show {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     padding-bottom: 50px;
+    gap: 15px;
   }
   footer .show img {
     width: 30px;
@@ -511,6 +514,12 @@ footer .none img {
 @media screen and (max-width: 991px) {
   footer .none {
     display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  footer .copyright .col-lg-4 {
+    padding-top: 18px;
   }
 }
 
