@@ -17,11 +17,18 @@ nav {
 }
 .navbar {
   position: fixed;
-  // top: 0;
+ 
   z-index: 2;
   width: 100%;
+  /* Another option for the fixed header
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    */
+
   @media screen and (max-width: 991px) {
     z-index: 2;
+
   }
 }
 
